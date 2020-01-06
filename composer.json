@@ -1,5 +1,8 @@
 {
-    "name": "twig/twig",
+    "name": "oforge/twig",
+    "replace": {
+        "twig/twig": "*"
+    },
     "type": "library",
     "description": "Twig, the flexible, fast, and secure template language for PHP",
     "keywords": ["templating"],
