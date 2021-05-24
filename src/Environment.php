@@ -130,6 +130,11 @@ class Environment
         $this->addExtension(new OptimizerExtension($options['optimizations']));
     }
 
+    public function initExtensionSet() {
+        //TODO next oforge twig update
+        $this->extensionSet->initRuntime($this);
+    }
+
     /**
      * Gets the base template class for compiled templates.
      *

@@ -11,8 +11,4 @@ if (false) {
     class Twig_Environment extends Environment
     {
     }
-    
-    public function initExtensionSet() {
-        $this->extensionSet->initRuntime($this);
-    }
 }
